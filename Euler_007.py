@@ -11,7 +11,7 @@ def isPrime(n):
 
 def euler007():
     n = 0
-    for i in range(2, 1000000):
+    for i in range(2, 10001 * 10001, 1):
         if isPrime(i):
             n += 1
         if n == 10001:
