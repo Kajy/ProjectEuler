@@ -14,7 +14,7 @@ def searchPath(size):
 
 def euler015():
     gridSize = 20
-    print (searchPath(gridSize + 1)[gridSize][gridSize])
+    print (str(searchPath(gridSize + 1)[gridSize][gridSize]) + " paths possible for a grid of " + str(gridSize) + "x" + str(gridSize))
 
 if __name__ == "__main__":
     euler015()
